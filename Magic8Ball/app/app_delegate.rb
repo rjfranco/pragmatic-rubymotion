@@ -1,8 +1,8 @@
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    alert = UIAlertView.new
-    alert.message = "Hello World!"
-    alert.show
+    # A standard line in Objectice C
+    # UIWindow *window = [[UIWindow alloc] initWithFrame:frame];
+    @window = UIWindow.alloc.initWithFrame(frame)
     true
   end
 end
